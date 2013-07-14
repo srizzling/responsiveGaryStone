@@ -83,7 +83,7 @@ position:relative;z-index:1000;}
 		
 		.menu li a:hover,
 		.menu li.hover>a{
-			color: pink;
+			color: #88a7de;
 
 		}
 		
