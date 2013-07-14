@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html><head>
+<title>HTML KickStart Elements</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="" />
+<link rel="stylesheet" type="text/css" href="css/kickstart.css" media="all" />                  <!-- KICKSTART -->
+<link rel="stylesheet" type="text/css" href="style.css" media="all" />                          <!-- CUSTOM STYLES -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/kickstart.js"></script>                                  <!-- KICKSTART -->
+
+	<style type="text/css">
+  #box {   
+    font-size: 48px;
+    font-style: oblique;
+    text-align: center;   
+    display: table-cell;
+    vertical-align: middle;
+}
+
+  #wrapper {
+    height: 100%;
+    width: 100%;
+    display: table;
+    
+}
+</style>
+
+	<script type="text/javascript">
+	
+	</script>
+</head><body>
+
+
+		
+
+<div class="grid">
+<!-- ===================================== END HEADER ===================================== -->
+
+
+	
+	<div class="col_12" style="border: solid red;  margin-top:50px">
+		
+	<ul class="menu" style=" background: #182c67;">		
+		<li class="current"><a href="">home</a></li>		
+		<li><a href="">profile</a></li>
+		<li><a href="">procedures</a></li>
+		<li><a href="">contact</a></li>
+		<li><a href="">news</a></li>
+	</ul>
+	
+	<div class="col_6" style="border: solid green;">
+		<img src="images/1.png">
+	</div>
+
+  <div class="col_6" style="border: solid green;">
+     <div id="wrapper">
+      "Hello"
+     </div>
+       
+  </div>
+	
+
+      
+
+			
+		
+	</div>
+
+</div>
+
+
+<!-- ===================================== START FOOTER ===================================== -->
+</div><!-- END GRID-->
+
+
+</body></html>
