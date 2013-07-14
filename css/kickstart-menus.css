@@ -17,7 +17,7 @@ position:relative;z-index:1000;}
 
 	.menu:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}
 	.menu li{margin:0;padding:0;list-style-type:none;display:inline-block;*display:inline;position:relative;zoom:1;line-height:inherit;
-	top:0;left:0;font-size:45px;font-family: Rockwell; //*fixed font-size to replace font-size:0 in parent .menu 1em/16px default */}
+	top:0;left:0;font-size:49px;font-family: Rockwell; //*fixed font-size to replace font-size:0 in parent .menu 1em/16px default */}
 		.menu li a{margin:0;padding:0;display:block;display:inline;display:inline-block;position:relative;zoom:1;line-height:100%;top:0;left:0;}
 
 
