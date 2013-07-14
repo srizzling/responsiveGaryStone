@@ -18,8 +18,7 @@
  */
  
 .grid{
-max-width:900px;
-max-height: 200px;
+max-width:1280px;
 margin:0 auto;
 padding:0 2em;
 }
@@ -89,7 +88,7 @@ border:1px dotted #ccc;
 @media all and (min-width: 1024px) and (max-width: 1280px) {
 	
 	.grid *[class*="col_"]{}
-	.grid{max-width: 400px;}
+	.grid{max-width: 1024px;}
 	.show-desktop	{display:block;}
 	.hide-desktop	{display:none;}
 	.show-tablet	{display:none;}
@@ -102,7 +101,7 @@ border:1px dotted #ccc;
 @media all and (min-width: 768px) and (max-width: 1024px) {
 	
 	.grid *[class*="col_"]{}
-	.grid{max-width: 400px;}
+	.grid{max-width: 1024x;}
 	.show-desktop	{display:none;}
 	.hide-desktop	{display:block;}
 	.show-tablet	{display:block;}
