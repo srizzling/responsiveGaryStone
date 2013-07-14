@@ -64,7 +64,7 @@ position:relative;z-index:1000;}
 .menu{}
 
 	.menu li{
-		color: #FFFFFF;
+		color: #88a7de;
 	}
 	
 		.menu li a{
@@ -72,7 +72,7 @@ position:relative;z-index:1000;}
 		padding:15px 20px;
 		text-decoration:none;
 		font-size:0.9em;
-		color: #FFFFFF;
+		color: #88a7de;
 		}
 		
 		.menu li.current>a,
@@ -83,7 +83,7 @@ position:relative;z-index:1000;}
 		
 		.menu li a:hover,
 		.menu li.hover>a{
-			color: #88a7de;
+			color:white;
 
 		}
 		
