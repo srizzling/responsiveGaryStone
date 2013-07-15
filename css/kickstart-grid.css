@@ -85,10 +85,12 @@ border:1px dotted #ccc;
 	768-480 	- tablet 
 	480-less 	- phone landscape & smaller
 -----------------------------------*/
-@media all and (min-width: 1024px) and (max-width: 1920px) {
+
+
+@media all and (min-width: 1398px) and (max-width: 1920px) {
 	
 	.grid *[class*="col_"]{}
-	.grid{max-width: 1280px;}
+	.grid{max-width: 1350px;}
 	.show-desktop	{display:block}
 	.hide-desktop	{display:none;}
 	.show-tablet	{display:none;}
@@ -97,6 +99,23 @@ border:1px dotted #ccc;
 	.hide-phone		{display:none;}
 	
 }
+
+
+@media all and (min-width: 1024px) and (max-width: 1398px) {
+	
+	.grid *[class*="col_"]{}
+	.grid{max-width: 910px;}
+	.show-desktop	{display:block}
+	.hide-desktop	{display:none;}
+	.show-tablet	{display:none;}
+	.hide-tablet	{display:none;}
+	.show-phone		{display:none;}
+	.hide-phone		{display:none;}
+	
+}
+
+
+
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
 	
