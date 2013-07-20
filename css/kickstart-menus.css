@@ -2,11 +2,7 @@
 	99Lime.com HTML KickStart by Joshua Gatcke
 	kickstart-menus.css 
 */
-	@font-face {
-	    font-family: 'Rockwell';
-	    src: url('../fonts/Test.otf');
-	    font-weight: normal;
-	    font-style: normal; }
+
 /*-------------------------------file:///home/sriram/website/responsive/blank.html--
 	MENU LAYOUT
 	DO NOT EDIT This Section (unless you know what you are doing)
@@ -17,7 +13,7 @@ position:relative;z-index:1000;}
 
 	.menu:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}
 	.menu li{margin:0;padding:0;list-style-type:none;display:inline-block;*display:inline;position:relative;zoom:1;line-height:inherit;
-	top:0;left:0;font-size:49px;font-family: Rockwell; //*fixed font-size to replace font-size:0 in parent .menu 1em/16px default */}
+	top:0;left:0;font-size:25px;font-family: Rockwell; //*fixed font-size to replace font-size:0 in parent .menu 1em/16px default */}
 		.menu li a{margin:0;padding:0;display:block;display:inline;display:inline-block;position:relative;zoom:1;line-height:100%;top:0;left:0;}
 
 
@@ -61,7 +57,8 @@ position:relative;z-index:1000;}
 	MENU STYLES
 	EDIT BELOW THIS LINE TO CUSTOMIZE
 -----------------------------------*/
-.menu{}
+.menu{
+height:20%}
 
 	.menu li{
 		color: #88a7de;
