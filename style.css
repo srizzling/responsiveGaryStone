@@ -9,11 +9,7 @@
 -----------------------------------*/
 @import url(http://fonts.googleapis.com/css?family=Arimo:400,700);
 
-	@font-face {
-	    font-family: 'Rockwell';
-	    src: url('../fonts/Test.otf');
-	    font-weight: normal;
-	    font-style: normal; }
+
 
 /*---------------------------------
 	OVERRIDES

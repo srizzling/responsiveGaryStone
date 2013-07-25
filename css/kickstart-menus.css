@@ -2,7 +2,21 @@
 	99Lime.com HTML KickStart by Joshua Gatcke
 	kickstart-menus.css 
 */
+	@font-face {
+	    font-family: 'Rockwell';
+	    src: url('../fonts/Test.otf');
+	    font-weight: normal;
+	    font-style: normal; }
 
+    @font-face {
+        font-family: 'Futura';
+        src: url('../fonts/Futura.ttf');
+      }
+
+         @font-face {
+        font-family: 'Homepage';
+        src: url('../fonts/homepage.otf');
+      }
 /*-------------------------------file:///home/sriram/website/responsive/blank.html--
 	MENU LAYOUT
 	DO NOT EDIT This Section (unless you know what you are doing)
@@ -70,6 +84,7 @@ height:20%}
 		text-decoration:none;
 		font-size:0.9em;
 		color: #88a7de;
+		font-family:Futura;
 		}
 		
 		.menu li.current>a,
