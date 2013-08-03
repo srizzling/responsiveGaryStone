@@ -17,6 +17,11 @@
         font-family: 'Homepage';
         src: url('../fonts/homepage.otf');
       }
+
+         @font-face {
+        font-family: 'light';
+        src: url('../fonts/contentlight.ttf');
+      }
 /*-------------------------------file:///home/sriram/website/responsive/blank.html--
 	MENU LAYOUT
 	DO NOT EDIT This Section (unless you know what you are doing)
