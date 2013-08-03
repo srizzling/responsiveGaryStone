@@ -71,7 +71,7 @@ background:#272628;
     $(".rslides").responsiveSlides({
   auto: true,             // Boolean: Animate automatically, true or false
   speed: 4000,            // Integer: Speed of the transition, in milliseconds
-  timeout: 8000,          // Integer: Time between slide transitions, in milliseconds
+  timeout: 5000,          // Integer: Time between slide transitions, in milliseconds
   pager: false,           // Boolean: Show pager, true or false
   nav: false,             // Boolean: Show navigation, true or false
   random: false,          // Boolean: Randomize the order of the slides, true or false
@@ -92,41 +92,15 @@ background:#272628;
 
 <script>
 			$(function(){
-				var $mwo = $('.marquee-with-options');
-				$('.marquee').marquee();
-				$('.marquee-with-options').marquee({
+				var $mwo = $('.marquee');
+				
+				$('.marquee').marquee({
 					//speed in milliseconds of the marquee
-					speed: 2,
-					//gap in pixels between the tickers
-					gap: 50,
-					//gap in pixels between the tickers
-					delayBeforeStart: 0,
-					//'left' or 'right'
-					direction: 'left',
-					//true or false - should the marquee be duplicated to show an effect of continues flow
-					duplicated: true,
-					//on hover pause the marquee - using jQuery plugin https://github.com/tobia/Pause
-					pauseOnHover: true
+					speed: 9000,
+					
+				
 				});
 
-				//pause and resume links
-				$('.pause').click(function(e){
-					e.preventDefault();
-					$mwo.trigger('pause');
-				});
-				$('.resume').click(function(e){
-					e.preventDefault();
-					$mwo.trigger('resume');
-				});
-				//toggle
-				$('.toggle').hover(function(e){
-					$mwo.trigger('pause');
-				},function(){
-					$mwo.trigger('resume');
-				})
-				.click(function(e){
-					e.preventDefault();
-				})
 			});
 </script>
 </head><body>
@@ -152,12 +126,13 @@ background:#272628;
 		</center>
 	
 
-	
-		<div class="marquee" style="position:relative; color:white; background: #aa0078; z-index:5">
-			<font size="3%" color="color:#b18dc0;" face="Futura">  
-				this is some random text
+
+		<div class="marquee" style="position:relative; color:white; background: #aa0078; z-index:5; height:30px; line-height:30px">
+			<font size="3%" color="#b18dc0" face="Futura">  
+				Welcome to Gary Stone's Website!
 			</font>
 		</div>
+	
 
 
 	</div>
