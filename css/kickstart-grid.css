@@ -88,7 +88,6 @@ border:1px dotted #ccc;
 
 
 @media all and (min-width: 1398px) and (max-width: 1920px) {
-	
 	.grid *[class*="col_"]{}
 	.grid{max-width: 1200px;}
 	.show-desktop	{display:block}
