@@ -42,10 +42,10 @@
     define( 'K_DB_NAME', 'cms' );
     // 5.
     // Database username
-    define( 'K_DB_USER', 'sriram' );
+    define( 'K_DB_USER', 'root' );
     // 6.
     // Database password 
-    define( 'K_DB_PASSWORD', 'sriram' );
+    define( 'K_DB_PASSWORD', 'sriram1089317' );
     // 7.
     // MySQL hostname (it will usually be 'localhost' )
     define( 'K_DB_HOST', 'localhost' );
