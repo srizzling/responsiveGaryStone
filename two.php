@@ -1,5 +1,5 @@
 <?php require_once( 'couch/cms.php' ); ?>
-<cms:template title='Hernia Repair' />
+<cms:template title='HERNIA REPAIR' />
 <div id="content">
 <div style="margin-top:50%;margin-left:5%; margin-right:15%">
 <font face="light" color="#aa0078" size="5%" >
