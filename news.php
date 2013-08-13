@@ -1,4 +1,4 @@
-
+<?php require_once( 'couch/cms.php' ); ?>
 <!DOCTYPE html>
 <html><head>
 <title>Gary Stone Surgeon</title>
@@ -179,7 +179,9 @@ background:#272628;
 			</div>
 			
 			<div class="col_6">	
-			
+				<cms:editable name='main_content' type='richtext'> 
+
+	
 			<font size="1%">
 				<h3> GUIDELINES FOR SCREENING COLONOSCOPY </h3>
 			</font>
@@ -208,6 +210,9 @@ background:#272628;
 
 
  			</p>
+
+				</cms:editable>
+		
  			</div>
 
 						
@@ -312,3 +317,4 @@ background:#272628;
 
 
 </body></html>
+<?php COUCH::invoke(); ?>
