@@ -10,133 +10,6 @@
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/kickstart.js"></script>                                  <!-- KICKSTART -->
 
-	<style type="text/css">
- .rslides {
-  position: relative;
-  list-style: none;
-  overflow: hidden;
-  width: 100%;
-  height:100%
-  padding: 0;
-  margin: 0;
-  margin-top:-10px;
-  margin-bottom:-5px;
-  }
-
-.rslides li {
-  -webkit-backface-visibility: hidden;
-  position: absolute;
-  display: none;
-  width: 100%;
-  left: 0;
-  top: 0;
-  }
-
-.rslides li:first-child {
-  position: relative;
-  float: left;
-  }
-
-.rslides img {
-  height: auto;
-  float: left;
-  width: 100%;
-  }
-
-body{
-background:#272628;
-
-}
-
-
-
-
-
-
-
-</style>
-
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script src="js/responsiveslides.min.js"></script>
-<script>
-  $(function() {
-    $(".rslides").responsiveSlides({
-  auto: true,             // Boolean: Animate automatically, true or false
-  speed: 4000,            // Integer: Speed of the transition, in milliseconds
-  timeout: 8000,          // Integer: Time between slide transitions, in milliseconds
-  pager: false,           // Boolean: Show pager, true or false
-  nav: false,             // Boolean: Show navigation, true or false
-  random: false,          // Boolean: Randomize the order of the slides, true or false
-  pause: false,           // Boolean: Pause on hover, true or false
-  pauseControls: true,    // Boolean: Pause when hovering controls, true or false
-  prevText: "Previous",   // String: Text for the "previous" button
-  nextText: "Next",       // String: Text for the "next" button
-  maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
-  navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
-  manualControls: "",     // Selector: Declare custom pager navigation
-  namespace: "rslides",   // String: Change the default namespace used
-  before: function(){},   // Function: Before callback
-  after: function(){}     // Function: After callback
-});
-  });
-  
-  	$(function() {
-			var pull 		= $('#pull');
-				menu 		= $('nav ul');
-				menuHeight	= menu.height();
-
-			$(pull).on('click', function(e) {
-				e.preventDefault();
-				menu.slideToggle();
-			});
-
-			$(window).resize(function(){
-        		var w = $(window).width();
-        		if(w > 320 && menu.is(':hidden')) {
-        			menu.removeAttr('style');
-        		}
-    		});
-		});
-</script>
-<script>
-			$(function(){
-				var $mwo = $('.marquee-with-options');
-				$('.marquee').marquee();
-				$('.marquee-with-options').marquee({
-					//speed in milliseconds of the marquee
-					speed: 2,
-					//gap in pixels between the tickers
-					gap: 50,
-					//gap in pixels between the tickers
-					delayBeforeStart: 0,
-					//'left' or 'right'
-					direction: 'left',
-					//true or false - should the marquee be duplicated to show an effect of continues flow
-					duplicated: true,
-					//on hover pause the marquee - using jQuery plugin https://github.com/tobia/Pause
-					pauseOnHover: true
-				});
-
-				//pause and resume links
-				$('.pause').click(function(e){
-					e.preventDefault();
-					$mwo.trigger('pause');
-				});
-				$('.resume').click(function(e){
-					e.preventDefault();
-					$mwo.trigger('resume');
-				});
-				//toggle
-				$('.toggle').hover(function(e){
-					$mwo.trigger('pause');
-				},function(){
-					$mwo.trigger('resume');
-				})
-				.click(function(e){
-					e.preventDefault();
-				})
-			});
-</script>
 </head><body>
 
 
@@ -167,7 +40,7 @@ background:#272628;
 
 	</div>
 	<div class="col_12" style="background: white">
-	<div class="show-desktop">
+	
 	
 
 			<div class="col_6">
@@ -217,52 +90,12 @@ background:#272628;
 				
 				
 			
-	</div>
+	
 	
 		
 
 	
-	<div class="show-tablet">
 	
-		<div class="col_6">
-			
-			<img src="http://i.imgur.com/xWu0DnA.jpg">
-						
-					
-					
-				
-			</div>
-			
-			<div class="col_6">	
-			This is the news page							
-						
-										
-				
-				
-				
-			</div>
-	</div>
-	
-	
-	<div class="show-phone">
-			<div class="col_6">
-			
-		<img src="http://i.imgur.com/xWu0DnA.jpg">
-						
-					
-					
-				
-			</div>
-			
-			<div class="col_6">	
-			This is the news page							
-						
-										
-				
-				
-				
-			</div>
-	</div>
 
 
 
